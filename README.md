@@ -1,4 +1,4 @@
-# Projeto Blogs API - Arquitetura MSC com Sequelize
+# Projeto API Blogs - Arquitetura MSC com Sequelize
 
 ## Contexto
 
