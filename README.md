@@ -212,7 +212,7 @@ Siga os passos a seguir para ter a aplicação rodando em sua máquina.
 1. Clonando o repositório
 
 ```sh
-  git clone git@github.com:jadsoncerqueira/blogs-api.git
+  git clone git@github.com:jadsoncerqueira/api-blogs.git
 ```
 
 2. Instalando as dependências
