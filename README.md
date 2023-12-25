@@ -251,6 +251,27 @@ Siga os passos a seguir para ter a aplicação rodando em sua máquina.
 > Você pode configurar as variáveis de ambiente conforme o arquivo .env.exemple se desejar utilizar outras credenciais, portas etc.
 
 A aplicação está no ar! utilize o navegador ou um outro cliente como Thunder Client para acesse as rotas conforme descrito na seção _Rotas_ deste documento.
+## Requisitos do sistema
+
+#### 1 - Crie migrations para as tabelas `users`, `categories`, `blog_posts`, `posts_categories`
+#### 2 - Crie o modelo `User` em `src/models/User.js` com as propriedades corretas
+#### 3 - Sua aplicação deve ter o endpoint POST `/login`
+#### 4 - Sua aplicação deve ter o endpoint POST `/user`
+#### 5 - Sua aplicação deve ter o endpoint GET `/user`
+#### 6 - Sua aplicação deve ter o endpoint GET `/user/:id`
+#### 7 - Crie o modelo `Category` em `src/models/Category.js` com as propriedades corretas
+#### 8 - Sua aplicação deve ter o endpoint POST `/categories`
+#### 9 - Sua aplicação deve ter o endpoint GET `/categories`
+#### 10 - Crie o modelo `BlogPost` em `src/models/BlogPost.js` com as propriedades e associações corretas
+#### 11 - Crie o modelo `PostCategory` em `src/models/PostCategory.js` com as propriedades e associações corretas
+#### 12 - Sua aplicação deve ter o endpoint POST `/post`
+#### 13 - Sua aplicação deve ter o endpoint GET `/post`
+#### 14 - Sua aplicação deve ter o endpoint GET `/post/:id`
+#### 15 - Sua aplicação deve ter o endpoint PUT `/post/:id`
+#### 16 - Sua aplicação deve ter o endpoint DELETE `/post/:id`
+#### 17 - Sua aplicação deve ter o endpoint DELETE `/user/me`
+#### 18 - Sua aplicação deve ter o endpoint GET `/post/search?q=:searchTerm`
+
 
 ## Contribua com o projeto
 
